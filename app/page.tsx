@@ -1,11 +1,11 @@
 import { Facebook, Instagram, Twitter } from '@deemlol/next-icons'
 import React from 'react'
 import Link from 'next/link'
+import Home from './home'
 
 const HomePage = () => {
   return (
     <>
-
       <div className='mx-auto my-5 w-full max-w-7xl'>
         <div className='flex flex-col items-center justify-center gap-5 md:flex-row md:justify-between'>
           <div>
@@ -61,8 +61,8 @@ const HomePage = () => {
           <img src="/img/bagimg.svg" alt="" />
         </div>
       </div>
-      <div >
-      </div>
+      <Home />
+
     </>
   )
 }
