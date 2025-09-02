@@ -1,7 +1,7 @@
-import { Facebook, Instagram, Twitter } from '@deemlol/next-icons'
+import { AlarmClockCheck, Facebook, Instagram, Twitter } from '@deemlol/next-icons'
 import React from 'react'
 import Link from 'next/link'
-import Home from './home'
+import { Utensils } from 'lucide-react'
 
 const HomePage = () => {
   return (
@@ -28,18 +28,23 @@ const HomePage = () => {
               <Link href="/aboutus" replace>
                 About us
               </Link>
-
             </ul>
           </div>
-          <div className='flex items-center gap-5'>
-            <Facebook size={24} color="black" />
-            <Twitter size={24} color="black" />
-            <Instagram size={24} color="black" />
+          <div className="flex items-center gap-5">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <Facebook size={24} color="black" />
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+              <Twitter size={24} color="black" />
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <Instagram size={24} color="black" />
+            </a>
           </div>
         </div>
       </div>
       <div>
-        <div className='flex flex-col items-center justify-center gap-5 md:flex-row md:justify-between mx-auto my-5 w-full max-w-7xl relative'>
+        <div className='flex flex-col items-center justify-center md:flex-row md:justify-between mx-auto my-5 w-full max-w-7xl relative'>
           <div className='bg-[#E7FAFE] w-[620px] h-[640px]'>
             <div>
               <div className='ml-5'>
@@ -51,6 +56,16 @@ const HomePage = () => {
                 <p className='text-black text-base font-normal'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt
                   ut labore et dolore magna aliqut enim ad minim </p>
               </div>
+              <div className='flex'>
+                <div className='flex items-center gap-3 bg-white rounded-full w-44 text-center h-8 mt-5 ml-5 justify-center'>
+                  <AlarmClockCheck size={24} className='text-black' />
+                  <p className='text-[#00000099]'>30 Minutes</p>
+                </div>
+                <div className='flex items-center gap-3 bg-white rounded-full w-44 text-center h-8 mt-5 ml-5 justify-center'>
+                  <Utensils size={24} className='text-black' />
+                  <p className='text-[#00000099]'>Chicken</p>
+                </div>
+              </div>
             </div>
             <div>
             </div>
@@ -61,8 +76,6 @@ const HomePage = () => {
           <img src="/img/bagimg.svg" alt="" />
         </div>
       </div>
-      <Home />
-
     </>
   )
 }
