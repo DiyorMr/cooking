@@ -1,4 +1,4 @@
-import { AlarmClockCheck, Facebook, Instagram, Twitter } from '@deemlol/next-icons'
+import { AlarmClockCheck, Facebook, Instagram, PlayCircle, Twitter } from '@deemlol/next-icons'
 import React from 'react'
 import Link from 'next/link'
 import { Utensils } from 'lucide-react'
@@ -64,6 +64,23 @@ const HomePage = () => {
                 <div className='flex items-center gap-3 bg-white rounded-full w-44 text-center h-8 mt-5 ml-5 justify-center'>
                   <Utensils size={24} className='text-black' />
                   <p className='text-[#00000099]'>Chicken</p>
+                </div>
+              </div>
+              <div className='flex items-center justify-between mt-30 p-5 '>
+                <div className='flex items-center gap-3'>
+                  <div>
+                    <img src="/img/user.svg" alt="" />
+                  </div>
+                  <div>
+                    <h1 className='text-base font-bold text-[#000000]'>John Smith</h1>
+                    <p className='text-sm font-medium text-[#00000099]'>15 March 2022</p>
+                  </div>
+                </div>
+                <div>
+                  <button className='w-50 h-15 rounded-full bg-[#000000] flex items-center gap-2 p-8'>
+                    <p>View Recipes</p>
+                    <PlayCircle size={24} color="#FFFFFF" />
+                  </button>
                 </div>
               </div>
             </div>
