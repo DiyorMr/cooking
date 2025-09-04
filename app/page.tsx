@@ -2,6 +2,7 @@ import { AlarmClockCheck, Facebook, Instagram, PlayCircle, Twitter } from '@deem
 import React from 'react'
 import Link from 'next/link'
 import { Utensils } from 'lucide-react'
+import Categories from './components/Categories'
 
 const HomePage = () => {
   return (
@@ -93,6 +94,7 @@ const HomePage = () => {
           <img src="/img/bagimg.svg" alt="" />
         </div>
       </div>
+      <Categories />
     </>
   )
 }
