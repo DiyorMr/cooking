@@ -44,7 +44,7 @@ const Categories: React.FC = () => {
         <section className="mx-auto my-5 w-full max-w-7xl px-6 py-10">
             <div className="flex items-center justify-between mb-6">
                 <h2 className="text-2xl font-bold text-black">Categories</h2>
-                <button className="bg-cyan-100 hover:bg-cyan-200 text-sm font-medium px-4 py-4 rounded-lg text-black">
+                <button className="bg-cyan-100 hover:bg-cyan-200 text-sm font-medium px-4 py-4 rounded-lg text-black cursor-pointer">
                     View All Categories
                 </button>
             </div>

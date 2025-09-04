@@ -3,6 +3,7 @@ import React from 'react'
 import Link from 'next/link'
 import { Utensils } from 'lucide-react'
 import Categories from './components/Categories'
+import Recipes from './components/Recipes'
 
 const HomePage = () => {
   return (
@@ -95,6 +96,7 @@ const HomePage = () => {
         </div>
       </div>
       <Categories />
+      <Recipes />
     </>
   )
 }
