@@ -67,8 +67,8 @@ const recipes: Recipe[] = [
         time: "30 Minutes",
         category: "Noodles",
     },
-     {
-        id: 7,
+    {
+        id: 9, // ✅ oldin 7 edi, endi unikallashdi
         title: "Fruity Pancake with Orange & Blueberry",
         image: "simple/chasse.svg",
         time: "30 Minutes",
