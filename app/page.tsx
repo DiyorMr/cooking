@@ -5,6 +5,7 @@ import { Utensils } from 'lucide-react'
 import Categories from './components/Categories'
 import Recipes from './components/Recipes'
 import Kitchen from './components/Kitchen'
+import Out from './components/Out'
 
 const HomePage = () => {
   return (
@@ -99,6 +100,7 @@ const HomePage = () => {
       <Categories />
       <Recipes />
       <Kitchen />
+      <Out />
     </>
   )
 }
