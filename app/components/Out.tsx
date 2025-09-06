@@ -10,17 +10,17 @@ const Out = () => {
             date: "September 16",
         },
         {
-            img: "/img/ins2.svg",
+            img: "/img/ins3.svg",
             text: "Sweet food can bring someone into happiness as long as they don’t eat it too much",
             date: "September 19",
         },
         {
-            img: "/img/ins2.svg",
+            img: "/img/ins4.svg",
             text: "What are you doing before start cooking? prepare the table of ingredients!",
             date: "September 18",
         },
         {
-            img: "/img/ins2.svg",
+            img: "/img/ins5.svg",
             text: "Steak flavor never be wrong, it is suitable for you who want romantic dinner",
             date: "September 19",
         },
@@ -58,7 +58,7 @@ const Out = () => {
                         <a
                             href="https://instagram.com"
                             target="_blank"
-                            className="flex items-center gap-2 bg-black text-white px-6 py-3 rounded-full hover:bg-gray-800 transition"
+                            className="flex items-center gap-2 bg-black text-white px-6 py-3 rounded-3xl hover:bg-gray-800 transition"
                         >
                             <Instagram size={24} color="#FFFFFF" />
                             Visit Our Instagram
