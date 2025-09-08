@@ -6,6 +6,7 @@ import Categories from './components/Categories'
 import Recipes from './components/Recipes'
 import Kitchen from './components/Kitchen'
 import Out from './components/Out'
+import FoodCards from './components/FoodCards'
 
 const HomePage = () => {
   return (
@@ -101,6 +102,7 @@ const HomePage = () => {
       <Recipes />
       <Kitchen />
       <Out />
+      <FoodCards />
     </>
   )
 }
