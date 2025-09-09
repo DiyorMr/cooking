@@ -88,7 +88,7 @@ export default function FoodCards() {
 
     return (
         <div className="px-6 py-10 max-w-7xl mx-auto">
-            <div className="flex items-center justify-between mb-10">
+            <div className="flex items-center justify-between mb-10 ">
                 <h1 className="text-3xl font-bold mb-2 text-black">
                     Try this delicious recipe <br /> to make your day
                 </h1>
