@@ -14,64 +14,56 @@ const foods: Food[] = [
     {
         id: 1,
         title: "Mixed Tropical Fruit Salad with Superfood Boosts",
-        image:
-            "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=600&h=400&fit=crop",
+        image: "/footcard/salad.svg",
         time: "30 Minutes",
         category: "Healthy",
     },
     {
         id: 2,
         title: "Big and Juicy Wagyu Beef Cheeseburger",
-        image:
-            "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&h=400&fit=crop",
+        image: "/footcard/chef.svg",
         time: "30 Minutes",
         category: "Western",
     },
     {
         id: 3,
         title: "Healthy Japanese Fried Rice with Asparagus",
-        image:
-            "https://images.unsplash.com/photo-1604908176997-826a4b1413f1?w=600&h=400&fit=crop",
+        image: "/footcard/aspa.svg",
         time: "30 Minutes",
         category: "Healthy",
     },
     {
         id: 4,
-        title: "Cauliflower Walnut Vegetarian Taco Meat",
-        image:
-            "https://images.unsplash.com/photo-1600891965053-d52e8bcb9d8d?w=600&h=400&fit=crop",
+        title: "Cauliflower Walnut Vegetarian Taco Meat"
+        , image: "/footcard/tasko.svg",
         time: "30 Minutes",
         category: "Eastern",
     },
     {
         id: 5,
         title: "Rainbow Chicken Salad with Almond Honey Mustard Dressing",
-        image:
-            "https://images.unsplash.com/photo-1604908554074-d80b7c2a0f5d?w=600&h=400&fit=crop",
+        image: "/footcard/soup.svg",
         time: "30 Minutes",
         category: "Healthy",
     },
     {
         id: 6,
         title: "Barbeque Spicy Sandwiches with Chips",
-        image:
-            "https://images.unsplash.com/photo-1604908812519-41c777d64df3?w=600&h=400&fit=crop",
+        image: "/footcard/chips.svg",
         time: "30 Minutes",
         category: "Snack",
     },
     {
         id: 7,
         title: "Firecracker Vegan Lettuce Wraps - Spicy!",
-        image:
-            "https://images.unsplash.com/photo-1606788075761-22b0fe9a1e84?w=600&h=400&fit=crop",
+        image: "/footcard/wraps.svg",
         time: "30 Minutes",
         category: "Seafood",
     },
     {
         id: 8,
         title: "Chicken Ramen Soup with Mushroom",
-        image:
-            "https://images.unsplash.com/photo-1604908177225-dc9cbb2ff0e1?w=600&h=400&fit=crop",
+        image: "/footcard/salad.svg",
         time: "30 Minutes",
         category: "Japanese",
     },
@@ -92,7 +84,7 @@ export default function FoodCards() {
                 <h1 className="text-3xl font-bold mb-2 text-black">
                     Try this delicious recipe <br /> to make your day
                 </h1>
-                <p className="text-gray-500 mb-8 max-w-2xl">
+                <p className="text-black mb-8 max-w-2xl">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua enim ad minim.
                 </p>
@@ -120,7 +112,7 @@ export default function FoodCards() {
                             />
                         </button>
                         <div className="p-4">
-                            <h2 className="font-semibold text-lg mb-2 line-clamp-2">
+                            <h2 className="font-semibold text-lg mb-2 text-black">
                                 {food.title}
                             </h2>
                             <div className="flex items-center gap-4 text-sm text-gray-600">
