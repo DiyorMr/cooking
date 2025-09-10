@@ -8,6 +8,7 @@ import Kitchen from './components/Kitchen'
 import Out from './components/Out'
 import FoodCards from './components/FoodCards'
 import Newsletter from './components/Newsletter'
+import Footer from './components/Footer'
 
 const HomePage = () => {
   return (
@@ -105,6 +106,7 @@ const HomePage = () => {
       <Out />
       <FoodCards />
       <Newsletter />
+      <Footer />
     </>
   )
 }
