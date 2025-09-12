@@ -13,8 +13,6 @@ import Footer from './components/Footer'
 
 const images = [
   "/img/foodimg1.svg",
-  "/img/foodimg1.svg",
-  "/img/foodimg1.svg",
 ];
 
 const HomePage = () => {
@@ -97,7 +95,7 @@ const HomePage = () => {
             </div>
 
             {/* Author + Button */}
-            <div className="flex items-center justify-between mt-8 p-5">
+            <div className="flex items-center mt-8 p-5">
               <div className="flex items-center gap-3">
                 <img src="/img/user.svg" alt="User" />
                 <div>
@@ -112,22 +110,25 @@ const HomePage = () => {
             </div>
           </div>
 
-          {/* Right Auto-play Image */}
-          <div className="relative w-full md:w-[500px] h-[400px] md:h-[640px] flex items-center justify-center overflow-hidden">
-            {images.map((img, index) => (
-              <img
-                key={index}
-                src={img}
-                alt="Food"
-                className={`absolute transition-opacity duration-700 ease-in-out ${index === current ? "opacity-100" : "opacity-0"
-                  }`}
-              />
-            ))}
+          {/* Right Auto-play Image + Tomato (statik) */}
+          <div className="relative w-full md:w-[650px] h-[450px] md:h-[640px] flex ">
+            {/* Autoplay images */}
+            <img
+              src="/img/foodimg.svg"
+              alt="Food"
+              className="w-full h-full object-cover rounded-2xl"
+            />
+            {/* Statik tomato image (ustiga qo‘yiladi) */}
+            <img
+              src="/img/tomato.svg"
+              alt="Tomato"
+              className="w-full h-full object-cover rounded-2xl"
+            />
           </div>
         </div>
 
         {/* Bag Image */}
-        <div className="absolute left-1/2 md:left-[670px] top-[50px] md:top-[120px] -translate-x-1/2 md:translate-x-0">
+        <div className="absolute md:left-[570px] top-[50px] md:top-[120px]">
           <img src="/img/bagimg.svg" alt="Bag" />
         </div>
       </div>
