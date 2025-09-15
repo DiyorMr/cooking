@@ -30,6 +30,9 @@ function Newsletter() {
                     <button className="bg-black text-white px-6 py-3 rounded-full hover:bg-gray-800 transition cursor-pointer">
                         Subscribe
                     </button>
+                       <button className="bg-black text-white px-6 py-3 rounded-full hover:bg-gray-800 transition cursor-pointer">
+                        Subscribe
+                    </button>
                 </div>
             </div>
         </div>
