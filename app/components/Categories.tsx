@@ -47,6 +47,9 @@ const Categories: React.FC = () => {
                 <button className="bg-cyan-100 hover:bg-cyan-200 text-sm font-medium px-4 py-4 rounded-lg text-black cursor-pointer">
                     View All Categories
                 </button>
+                 <button className="bg-cyan-100 hover:bg-cyan-200 text-sm font-medium px-4 py-4 rounded-lg text-black cursor-pointer">
+                    View All Categories
+                </button>
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6">
                 {categories.map((cat) => (
